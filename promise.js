@@ -30,9 +30,9 @@ multiplyNumbers = (num1,num2) =>{
 const num1=5;
 const num2=6;
 result=multiplyNumbers(num1,num2);
-p.then((result) =>{
+result.then((result) =>{
     console.log(result);
 });
-p.catch((error)=>{
+result.catch((error)=>{
     console.log('error',error);
 });
