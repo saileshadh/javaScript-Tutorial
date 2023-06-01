@@ -15,7 +15,7 @@
 // });
 
 multiplyNumbers = (num1,num2) =>{
-    return p= new Promise((reject, resolve)=>{
+    return new Promise((reject, resolve)=>{
     
     if(num1>1 && num2>1){
         const multiplication = num1*num2;
